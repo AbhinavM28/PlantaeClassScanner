@@ -10,7 +10,7 @@ This directory contains the dataset structure and metadata for plant classificat
 - **Resolution Range:** 224x224 to 1024x1024
 
 ## Directory Structure
-**data/**
+**data/** \
    ├── raw/              # Original images (Git LFS tracked) \
    ├── processed/        # Preprocessed/augmented images \
    ├── train/            # Training set (70%) \
@@ -74,4 +74,4 @@ Augmentation: rotation (+15°/-15°), horizontal flip, brightness (+20% / -20%) 
 
 ## License
 Images sourced from iNaturalist are licensed under CC BY-NC 4.0. \
-User-contributed images are owned by the contributor. \
+User-contributed images are owned by the contributor.
