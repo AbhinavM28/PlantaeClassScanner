@@ -17,7 +17,7 @@ This directory contains the dataset structure and metadata for plant classificat
    ├── val/              # Validation set (15%) \
    ├── test/             # Test set (15%) \
    ├── user_collected/   # User-contributed images via scanner \
-   └── dataset_metadata.json  # Detailed statistics \
+   └── dataset_metadata.json  # Detailed statistics 
    
 ## Data Sources
 1. **iNaturalist API** - Research-grade observations
@@ -46,7 +46,7 @@ python scripts/download_dataset.py --species-list config/species.json --images-p
 Images are preprocessed using:
 Resize to 224x224 (MobileNetV3 input size) \
 Normalization: [0, 1] range \
-Augmentation: rotation (+15°/-15°), horizontal flip, brightness (+20% / -20%) \
+Augmentation: rotation (+15°/-15°), horizontal flip, brightness (+20% / -20%)
 
 ## Dataset Metadata Schema
 ```Ruby
