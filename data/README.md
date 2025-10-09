@@ -10,14 +10,15 @@ This directory contains the dataset structure and metadata for plant classificat
 - **Resolution Range:** 224x224 to 1024x1024
 
 ## Directory Structure
-data/
-├── raw/              # Original images (Git LFS tracked)
-├── processed/        # Preprocessed/augmented images
-├── train/            # Training set (70%)
-├── val/              # Validation set (15%)
-├── test/             # Test set (15%)
-├── user_collected/   # User-contributed images via scanner
-└── dataset_metadata.json  # Detailed statistics
+**data/**
+   ├── raw/              # Original images (Git LFS tracked) \
+   ├── processed/        # Preprocessed/augmented images \
+   ├── train/            # Training set (70%) \
+   ├── val/              # Validation set (15%) \
+   ├── test/             # Test set (15%) \
+   ├── user_collected/   # User-contributed images via scanner \
+   └── dataset_metadata.json  # Detailed statistics \
+   
 ## Data Sources
 1. **iNaturalist API** - Research-grade observations
 2. **PlantNet-300K** - Subset of high-quality images
@@ -35,13 +36,20 @@ data/
 9. Hedera helix (English Ivy)
 10. Ficus elastica (Rubber Plant)
 
+## Data Collection
+Run the automated collection script:  
+```Ruby
+python scripts/download_dataset.py --species-list config/species.json --images-per-class 100
+```
+
 ## Preprocessing
 Images are preprocessed using:
-- Resize to 224x224 (MobileNetV3 input size)
-- Normalization: [0, 1] range
-- Augmentation: rotation (+15°/-15°), horizontal flip, brightness (+20% / -20%)
+Resize to 224x224 (MobileNetV3 input size) \
+Normalization: [0, 1] range \
+Augmentation: rotation (+15°/-15°), horizontal flip, brightness (+20% / -20%) \
 
 ## Dataset Metadata Schema
+```Ruby
 {
   "version": "1.0.0",
   "created_date": "2025-10-08",
@@ -62,7 +70,8 @@ Images are preprocessed using:
     "format": "JPEG"
   }
 }
+```
 
 ## License
-Images sourced from iNaturalist are licensed under CC BY-NC 4.0.
-User-contributed images are owned by the contributor.
+Images sourced from iNaturalist are licensed under CC BY-NC 4.0. \
+User-contributed images are owned by the contributor. \
