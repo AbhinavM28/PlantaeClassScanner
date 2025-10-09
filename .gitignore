@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment variables
+.env
+.venv
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files)
+data/raw/**/*.jpg
+data/raw/**/*.png
+data/raw/**/*.jpeg
+data/processed/**/*.jpg
+data/processed/**/*.png
+data/train/**/*.jpg
+data/train/**/*.png
+data/val/**/*.jpg
+data/val/**/*.png
+data/test/**/*.jpg
+data/test/**/*.png
+data/user_collected/**/*.jpg
+data/user_collected/**/*.png
+
+# Models (track only via LFS)
+models/checkpoints/*.h5
+models/checkpoints/*.ckpt
+models/training/*.h5
+
+# Logs
+*.log
+logs/
+wandb/
+
+# Temporary files
+*.tmp
+temp/
+cache/
+
+# CAD software temp files
+*.SLDPRT~
+*.SLDASM~
+~$*.SLD*
+*.prt.*
+*.asm.*
+
+# Keep directory structure
+!.gitkeep
+!data/README.md
+!models/README.md
