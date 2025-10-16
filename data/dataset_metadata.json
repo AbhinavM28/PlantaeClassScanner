@@ -1,0 +1,456 @@
+{
+  "version": "1.0.0",
+  "created_date": "2025-10-16T15:19:19.050073",
+  "last_updated": "2025-10-16T15:19:19.050092",
+  "total_images": 1000,
+  "classes": {
+    "Aloe_vera": {
+      "count": 100,
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "source": "iNaturalist",
+      "verified": true,
+      "examples": [
+        "data/train/Aloe_vera/Aloe_vera_299764109.jpg",
+        "data/train/Aloe_vera/Aloe_vera_300108699.jpg",
+        "data/train/Aloe_vera/Aloe_vera_301160048.jpg"
+      ]
+    },
+    "Chlorophytum_comosum": {
+      "count": 100,
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "source": "iNaturalist",
+      "verified": true,
+      "examples": [
+        "data/train/Chlorophytum_comosum/Chlorophytum_comosum_266303050.jpg",
+        "data/train/Chlorophytum_comosum/Chlorophytum_comosum_266647151.jpg",
+        "data/train/Chlorophytum_comosum/Chlorophytum_comosum_266854219.jpg"
+      ]
+    },
+    "Crassula_ovata": {
+      "count": 100,
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "source": "iNaturalist",
+      "verified": true,
+      "examples": [
+        "data/train/Crassula_ovata/Crassula_ovata_296474552.jpg",
+        "data/train/Crassula_ovata/Crassula_ovata_296494821.jpg",
+        "data/train/Crassula_ovata/Crassula_ovata_296494902.jpg"
+      ]
+    },
+    "Epipremnum_aureum": {
+      "count": 100,
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "source": "iNaturalist",
+      "verified": true,
+      "examples": [
+        "data/train/Epipremnum_aureum/Epipremnum_aureum_314035218.jpg",
+        "data/train/Epipremnum_aureum/Epipremnum_aureum_314272090.jpg",
+        "data/train/Epipremnum_aureum/Epipremnum_aureum_314314346.jpg"
+      ]
+    },
+    "Ficus_elastica": {
+      "count": 100,
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "source": "iNaturalist",
+      "verified": true,
+      "examples": [
+        "data/train/Ficus_elastica/Ficus_elastica_275788795.jpg",
+        "data/train/Ficus_elastica/Ficus_elastica_276507148.jpg",
+        "data/train/Ficus_elastica/Ficus_elastica_277433992.jpg"
+      ]
+    },
+    "Ficus_lyrata": {
+      "count": 100,
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "source": "iNaturalist",
+      "verified": true,
+      "examples": [
+        "data/train/Ficus_lyrata/Ficus_lyrata_166952279.jpg",
+        "data/train/Ficus_lyrata/Ficus_lyrata_168290769.jpg",
+        "data/train/Ficus_lyrata/Ficus_lyrata_170413307.jpg"
+      ]
+    },
+    "Hedera_helix": {
+      "count": 100,
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "source": "iNaturalist",
+      "verified": true,
+      "examples": [
+        "data/train/Hedera_helix/Hedera_helix_320505661.jpg",
+        "data/train/Hedera_helix/Hedera_helix_320505920.jpg",
+        "data/train/Hedera_helix/Hedera_helix_320524640.jpg"
+      ]
+    },
+    "Monstera_deliciosa": {
+      "count": 100,
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "source": "iNaturalist",
+      "verified": true,
+      "examples": [
+        "data/train/Monstera_deliciosa/Monstera_deliciosa_312472232.jpg",
+        "data/train/Monstera_deliciosa/Monstera_deliciosa_312549395.jpg",
+        "data/train/Monstera_deliciosa/Monstera_deliciosa_312647652.jpg"
+      ]
+    },
+    "Sansevieria_trifasciata": {
+      "count": 100,
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "source": "iNaturalist",
+      "verified": true,
+      "examples": [
+        "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_310239874.jpg",
+        "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_310638142.jpg",
+        "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_310733775.jpg"
+      ]
+    },
+    "Spathiphyllum_wallisii": {
+      "count": 100,
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "source": "iNaturalist",
+      "verified": true,
+      "examples": [
+        "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_229985797.jpg",
+        "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_230895121.jpg",
+        "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_235674734.jpg"
+      ]
+    }
+  },
+  "image_stats": {
+    "formats": {
+      "JPEG": 1000
+    },
+    "total_size_bytes": 168400657,
+    "total_size_mb": 160.6,
+    "mean_width": 378,
+    "mean_height": 474,
+    "min_width": 147,
+    "max_width": 500,
+    "min_height": 225,
+    "max_height": 500
+  },
+  "splits": {
+    "train": {
+      "count": 700,
+      "percentage": 70.0
+    },
+    "val": {
+      "count": 150,
+      "percentage": 15.0
+    },
+    "test": {
+      "count": 150,
+      "percentage": 15.0
+    }
+  },
+  "quality_checks": {
+    "corrupt_images": [],
+    "duplicate_images": [
+      {
+        "hash": "102cd7214222ff5e8bbc2a584cfcd622",
+        "paths": [
+          "data/train/Monstera_deliciosa/Monstera_deliciosa_314473469.jpg",
+          "data/test/Monstera_deliciosa/Monstera_deliciosa_315319153.jpg"
+        ]
+      }
+    ],
+    "low_resolution": [
+      {
+        "path": "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_311408386.jpg",
+        "size": "147x500"
+      }
+    ],
+    "aspect_ratio_outliers": [
+      {
+        "path": "data/train/Aloe_vera/Aloe_vera_316909715.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Aloe_vera/Aloe_vera_320776965.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Chlorophytum_comosum/Chlorophytum_comosum_278792764.jpg",
+        "aspect_ratio": 0.46,
+        "size": "231x500"
+      },
+      {
+        "path": "data/train/Chlorophytum_comosum/Chlorophytum_comosum_299190333.jpg",
+        "aspect_ratio": 0.45,
+        "size": "226x500"
+      },
+      {
+        "path": "data/train/Chlorophytum_comosum/Chlorophytum_comosum_306939945.jpg",
+        "aspect_ratio": 0.46,
+        "size": "231x500"
+      },
+      {
+        "path": "data/train/Chlorophytum_comosum/Chlorophytum_comosum_311185011.jpg",
+        "aspect_ratio": 0.46,
+        "size": "231x500"
+      },
+      {
+        "path": "data/train/Chlorophytum_comosum/Chlorophytum_comosum_319770515.jpg",
+        "aspect_ratio": 0.46,
+        "size": "231x500"
+      },
+      {
+        "path": "data/train/Crassula_ovata/Crassula_ovata_306465300.jpg",
+        "aspect_ratio": 0.47,
+        "size": "237x500"
+      },
+      {
+        "path": "data/train/Epipremnum_aureum/Epipremnum_aureum_315178189.jpg",
+        "aspect_ratio": 0.46,
+        "size": "230x500"
+      },
+      {
+        "path": "data/train/Epipremnum_aureum/Epipremnum_aureum_315694821.jpg",
+        "aspect_ratio": 0.47,
+        "size": "235x500"
+      },
+      {
+        "path": "data/train/Ficus_elastica/Ficus_elastica_278481386.jpg",
+        "aspect_ratio": 2.22,
+        "size": "500x225"
+      },
+      {
+        "path": "data/train/Ficus_elastica/Ficus_elastica_306181982.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Ficus_elastica/Ficus_elastica_320775024.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Ficus_lyrata/Ficus_lyrata_216710162.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Ficus_lyrata/Ficus_lyrata_218011335.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Hedera_helix/Hedera_helix_320676671.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Hedera_helix/Hedera_helix_320687856.jpg",
+        "aspect_ratio": 0.46,
+        "size": "231x500"
+      },
+      {
+        "path": "data/train/Hedera_helix/Hedera_helix_320688737.jpg",
+        "aspect_ratio": 0.46,
+        "size": "231x500"
+      },
+      {
+        "path": "data/train/Hedera_helix/Hedera_helix_320705641.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Hedera_helix/Hedera_helix_320899835.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Hedera_helix/Hedera_helix_321125262.jpg",
+        "aspect_ratio": 0.46,
+        "size": "231x500"
+      },
+      {
+        "path": "data/train/Hedera_helix/Hedera_helix_321126216.jpg",
+        "aspect_ratio": 0.46,
+        "size": "231x500"
+      },
+      {
+        "path": "data/train/Monstera_deliciosa/Monstera_deliciosa_314000534.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_310638142.jpg",
+        "aspect_ratio": 0.45,
+        "size": "227x500"
+      },
+      {
+        "path": "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_311408386.jpg",
+        "aspect_ratio": 0.29,
+        "size": "147x500"
+      },
+      {
+        "path": "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_311856420.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_315199792.jpg",
+        "aspect_ratio": 0.45,
+        "size": "224x500"
+      },
+      {
+        "path": "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_315303418.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_316531939.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_317086347.jpg",
+        "aspect_ratio": 0.45,
+        "size": "227x500"
+      },
+      {
+        "path": "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_317288814.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Sansevieria_trifasciata/Sansevieria_trifasciata_320048735.jpg",
+        "aspect_ratio": 2.22,
+        "size": "500x225"
+      },
+      {
+        "path": "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_242952708.jpg",
+        "aspect_ratio": 0.47,
+        "size": "237x500"
+      },
+      {
+        "path": "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_243875084.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_250280307.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_252256848.jpg",
+        "aspect_ratio": 0.46,
+        "size": "230x500"
+      },
+      {
+        "path": "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_252265409.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_252771524.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_277766420.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/train/Spathiphyllum_wallisii/Spathiphyllum_wallisii_278281225.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/val/Crassula_ovata/Crassula_ovata_319709161.jpg",
+        "aspect_ratio": 0.46,
+        "size": "230x500"
+      },
+      {
+        "path": "data/val/Ficus_lyrata/Ficus_lyrata_258825342.jpg",
+        "aspect_ratio": 0.49,
+        "size": "243x500"
+      },
+      {
+        "path": "data/val/Monstera_deliciosa/Monstera_deliciosa_314846217.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/val/Spathiphyllum_wallisii/Spathiphyllum_wallisii_317169368.jpg",
+        "aspect_ratio": 0.47,
+        "size": "234x500"
+      },
+      {
+        "path": "data/test/Aloe_vera/Aloe_vera_319855002.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/test/Chlorophytum_comosum/Chlorophytum_comosum_276497999.jpg",
+        "aspect_ratio": 0.46,
+        "size": "231x500"
+      },
+      {
+        "path": "data/test/Chlorophytum_comosum/Chlorophytum_comosum_317978781.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/test/Crassula_ovata/Crassula_ovata_318424043.jpg",
+        "aspect_ratio": 0.45,
+        "size": "224x500"
+      },
+      {
+        "path": "data/test/Ficus_elastica/Ficus_elastica_293473855.jpg",
+        "aspect_ratio": 0.45,
+        "size": "224x500"
+      },
+      {
+        "path": "data/test/Monstera_deliciosa/Monstera_deliciosa_314055961.jpg",
+        "aspect_ratio": 0.47,
+        "size": "234x500"
+      },
+      {
+        "path": "data/test/Monstera_deliciosa/Monstera_deliciosa_318531048.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      },
+      {
+        "path": "data/test/Sansevieria_trifasciata/Sansevieria_trifasciata_318260777.jpg",
+        "aspect_ratio": 0.46,
+        "size": "231x500"
+      },
+      {
+        "path": "data/test/Sansevieria_trifasciata/Sansevieria_trifasciata_318734458.jpg",
+        "aspect_ratio": 0.46,
+        "size": "230x500"
+      },
+      {
+        "path": "data/test/Spathiphyllum_wallisii/Spathiphyllum_wallisii_311263460.jpg",
+        "aspect_ratio": 0.45,
+        "size": "225x500"
+      }
+    ]
+  },
+  "balance_ratio": 1.0
+}
