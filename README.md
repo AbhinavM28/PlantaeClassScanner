@@ -267,8 +267,9 @@ Built as a portfolio project to demonstrate expertise in:
 
 **Target Audience**: FAANG companies, top tech firms, robotics startups (If you like what you see, please reach out :D🙏)
 
-**Contact**: https://www.linkedin.com/in/abhimaddisetty/
-                abhinav.maddisetty@outlook.com
+**Contact**: 
+- https://www.linkedin.com/in/abhimaddisetty/
+- abhinav.maddisetty@outlook.com
 
 ---
 
@@ -283,3 +284,4 @@ Built as a portfolio project to demonstrate expertise in:
 
 
 **Status**: Active Development | Last Updated: October 2025
+
